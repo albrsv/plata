@@ -9,7 +9,7 @@ This app manages users, their balances, and transactions.
 
 - **User, Balance, Transaction Models**
 - **Automatic Balance Creation:** When a user is created, balances are generated automatically.
-- **Transactions are created asynchronously in a queue using jobs** for better performance and scalability.
+- **Transaction processing is handled asynchronously in a queue using jobs**
 - **API-first:** All backend responses are JSON.
 - **Authentication is cookie-based (session via Laravel Sanctum SPA mode).**
 - **Vue 3 SPA:** Responsive dashboard with sorting, searching, and authentication.
